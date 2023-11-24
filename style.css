@@ -1,0 +1,21 @@
+:root {
+    --green: #cbdfbd;
+    --black: #212426;
+    --gray: #a9aab1;
+    --beige: #fdf5e6;
+}
+
+body {
+    background-color: var(--beige);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 97vh;
+
+    color: #212426;
+    font-family: 'Montserrat', sans-serif;
+}
+
