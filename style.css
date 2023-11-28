@@ -19,3 +19,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#signature {
+    text-decoration: underline;
+    transition: 0.15s ease-in-out;
+}
+
+#signature:hover {
+    cursor: pointer;
+    color: var(--green);
+}
